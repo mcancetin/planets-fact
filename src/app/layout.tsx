@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${antonio.variable} ${spartan.variable} h-screen bg-dark-navy bg-stars text-white antialiased`}
       >
         <Header />
-        <main className="relative h-full">{children}</main>
+        <main className="relative h-[calc(100%_-_69px)]">{children}</main>
       </body>
     </html>
   );
